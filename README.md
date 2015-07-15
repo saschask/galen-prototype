@@ -1,5 +1,5 @@
 # galen-prototype
-Small prototype to show the general workflows and basic features of Galen Framework.
+Small prototype to show the general workflows and basic features of [Galen Framework](http://galenframework.com/) which can be used for automated testing of responsive design.
 
 ## Available Grunt tasks
 
