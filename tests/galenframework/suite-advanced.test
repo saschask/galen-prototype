@@ -1,0 +1,20 @@
+@@ set
+    localhost       http://localhost:8000
+    specBase        tests/galenframework/
+    specAdvanced    spec-advanced.spec
+ 
+@@ parameterized
+    | browser  |
+    | firefox  |
+    | chrome   |
+    | ie       |
+
+@@ parameterized
+    | deviceName | tags    | size     |
+    | Mobile     | mobile  | 320x568  |
+    | Tablet     | tablet  | 768x1024 |
+    | Desktop    | desktop | 1280x720 |
+
+Advanced test suite with ${specAdvanced} on ${deviceName} device in ${browser} browser
+    selenium ${browser} ${localhost} ${size}
+        check ${specBase}${specAdvanced} --include "" --exclude ""

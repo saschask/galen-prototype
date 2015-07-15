@@ -1,0 +1,23 @@
+@@ set
+    localhost       http://localhost:8000
+    resSmall        320x568
+    resHigh         1280x720
+    specBase        tests/galenframework/
+    specSimple      spec-simple.spec
+    specAdvanced    spec-advanced.spec
+
+Simple test suite with ${specSimple} and ${resSmall} in default browser.
+    ${localhost} ${resSmall}
+        check ${specBase}${specSimple} --include "" --exclude ""
+
+Simple test suite with ${specSimple} and ${resHigh} in default browser.
+    ${localhost} ${resHigh}
+        check ${specBase}${specSimple} --include "" --exclude ""
+
+Simple test suite with ${specAdvanced} and ${resSmall} in default browser.
+    ${localhost} ${resSmall}
+        check ${specBase}${specAdvanced} --include "" --exclude ""
+
+Simple test suite with ${specAdvanced} and ${resHigh} in default browser.
+    ${localhost} ${resHigh}
+        check ${specBase}${specAdvanced} --include "" --exclude ""
