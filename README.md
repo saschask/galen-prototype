@@ -14,7 +14,7 @@ Small prototype to show the general workflows and basic features of Galen Framew
 ### Main tasks
 - **`grunt start`**: Should be used for local development of the frontend. Executes the `build`, `connect` and `watch` task.
 - **`grunt testSpec`**: Executes the `build`, `connect` and `shell:galenSpec` task for running all the Galen Framework tests defined in files that match `tests/galenframework/spec-*.spec`. 
-- **`grunt galenSuite`**: Executes the `build`, `connect` and `shell:galenSuite` task for running all the Galen Framework tests defined in files that match `tests/galenframework/suite-*.test`.
+- **`grunt testSuite`**: Executes the `build`, `connect` and `shell:galenSuite` task for running all the Galen Framework tests defined in files that match `tests/galenframework/suite-*.test`.
 
 ## Further informations
 
