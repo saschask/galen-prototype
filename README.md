@@ -14,12 +14,12 @@ The Grunt and Galen Framework command line interfaces should be installed global
 ## Available Grunt tasks
 
 ### Basic tasks
-- `grunt clean`: Cleans the `build` folder.
-- `grunt copy`: Copies all relevant folders and files from the `source` folder into the `build` folder.
-- `grunt build`: Executes the `clean` and `copy` task.
-- `grunt connect`: Starts a local server which is available at [http://localhost:8000](http://localhost:8000).
-- `grunt watch`: Starts monitoring of all relevant files inside of the `source` folder and executes several targets of the `copy` task in case of changes. Please note that *livereload* is activated so you do not need to reload the browser on your own.
-- `grunt shell`: Executes several commands in the global shell which is basically used for the execution of Galen Framework test files.
+- **`grunt clean`**: Cleans the `build` folder.
+- **`grunt copy`**: Copies all relevant folders and files from the `source` folder into the `build` folder.
+- **`grunt build`**: Executes the `clean` and `copy` task.
+- **`grunt connect`**: Starts a local server which is available at [http://localhost:8000](http://localhost:8000).
+- **`grunt watch`**: Starts monitoring of all relevant files inside of the `source` folder and executes several targets of the `copy` task in case of changes. Please note that *livereload* is activated so you do not need to reload the browser on your own.
+- **`grunt shell`**: Executes several commands in the global shell which is basically used for the execution of Galen Framework test files.
 
 ### Main tasks
 - **`grunt start`**: Should be used for local development of the frontend. Executes the `build`, `connect` and `watch` task.
