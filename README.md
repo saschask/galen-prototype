@@ -1,6 +1,16 @@
 # galen-prototype
 Small prototype to show the general workflows and basic features of [Galen Framework](http://galenframework.com/) which can be used for automated testing of responsive design.
 
+## Setup
+
+At first, please make sure that [NodeJS](https://nodejs.org/) is installed. Afterwards use `npm` and the `package.json` to get Grunt and all the necessary Grunt plugins.
+
+The Grunt and Galen Framework command line interfaces should be installed globally to be able to use them from everywhere and to prevent problems with `grunt shell`.
+
+`npm install;`  
+`npm install grunt-cli -g;`  
+`npm install galenframework-cli -g;`
+
 ## Available Grunt tasks
 
 ### Basic tasks
