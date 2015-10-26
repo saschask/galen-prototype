@@ -26,7 +26,7 @@ The Grunt and Galen Framework command line interfaces should be installed global
 - **`grunt testSpec`**: Executes the `build`, `connect` and `shell:galenSpec` task for running all the Galen Framework tests defined in files that match `tests/galenframework/spec-*.spec`. 
 - **`grunt testSuite`**: Executes the `build`, `connect` and `shell:galenSuite` task for running all the Galen Framework tests defined in files that match `tests/galenframework/suite-*.test`.
 
-## Further informations
+## Further information
 
 ### Selenium browser drivers
 
@@ -36,4 +36,4 @@ If you are working on another OS, then please get the respective files at the [S
 
 ### Test report
 
-Every time a Galen Framework test has been executed, a `report.html` can be found inside of `reports/galenframework/htmlreport/` with very detailed informations, screenshots and error/warning messages.
+Every time a Galen Framework test has been executed, a `report.html` can be found inside of `reports/galenframework/htmlreport/` with very detailed information, screenshots and error/warning messages.
